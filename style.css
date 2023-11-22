@@ -1,0 +1,50 @@
+ header {
+       
+        width: 100;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+ main {
+       
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+img {
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+#intes {
+        border-top-color: 5px solid orange;
+        max-width: 100;
+        height: max-content;
+        background-color: blanchedalmond;
+        text-align: center;
+        padding-bottom: 25px;
+        font-style: bold;
+
+}
+
+h1 {
+    
+    text-align: center;
+    
+}
+
+p {
+    
+    text-align: center;
+    font-size: 1rem;
+}
+
+#pieimg {
+
+    text-align: center;
+    color: gray;
+}
