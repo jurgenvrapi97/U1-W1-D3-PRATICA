@@ -6,8 +6,8 @@
     }
 
  main {
-       
-        width: 70%;
+        align-items: center;
+        width: 52%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -21,14 +21,23 @@ img {
 }
 
 #intes {
-        border-top-color: 5px solid orange;
-        max-width: 100;
+    color: green;
+        font-weight: 900;
+        border-top: 2px solid orange;
         height: max-content;
         background-color: blanchedalmond;
         text-align: center;
         padding-bottom: 25px;
-        font-style: bold;
 
+}
+
+#intes::before {content: "part of ";
+    font-weight: lighter;
+    border-top: 2px solid orange;
+    height: max-content;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-bottom: 25px;
 }
 
 h1 {
@@ -37,9 +46,8 @@ h1 {
     
 }
 
-p {
+#desc { 
     
-    text-align: center;
     font-size: 1rem;
 }
 
@@ -47,4 +55,53 @@ p {
 
     text-align: center;
     color: gray;
+}
+
+#featured {
+margin-bottom: 1px;
+color: red;
+
+}
+
+#fresh {
+    text-decoration: underline;
+    margin-top: 1px;
+    color: rgb(46, 224, 201);
+}
+
+#style-1 {
+
+    border-left: 2px solid orange;
+    padding-left: 8px;
+}
+
+#pizza {
+    
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.intest {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-bottom: 2px solid rgb(46, 224, 201);
+}
+
+.lab {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#list{
+
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#foot::after { content: " Simply recipe";
+    color: green;
+    text-decoration: underline;
+
+
 }
